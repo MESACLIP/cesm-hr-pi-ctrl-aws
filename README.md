@@ -14,4 +14,13 @@ Ongoing projects supporting CESM-HR historical and future transient climate simu
 The PI-CTRL and HF-TNST simulations are released to the public in May/2022 through the Texas A&M datahub portal (https://ihesp.github.io/archive/products/ihesp-products/data-release/DataRelease_Phase2.html)
 As a part of the AWS Public Datasets Program, the PI-CTRL data for years 0021-0500 is provided here. Depending on the availability of resources, attempts will be made to share more simulations from the CESM-HR suite on the AWS platform in the future.
 
+Table.1: CESM-HR PI-CTRL component models (atmosphere (atm), ice, land (lnd), ocean (ocn) and runoff (rof)), list of available variables and data size. 
+
+| Sl. No. | Comp. Model or Group | No. of Vars. | List of Variables | Total  Size |
+| :---:   | :------------: | :------: | :----------------- | :-----: |
+| 1       | atm  | 139   | https://ihesp.github.io/archive/products/ihesp-products/data-release/PI_control/atm/index.html  | 16.2 TB |
+| 2       | ice  | 117   | https://ihesp.github.io/archive/products/ihesp-products/data-release/PI_control/ice/index.html  |  4.6 TB |
+| 3       | lnd  | 152   | https://ihesp.github.io/archive/products/ihesp-products/data-release/PI_control/lnd/index.html  |  1.0 TB |
+| 4       | ocn  | 48    | https://ihesp.github.io/archive/products/ihesp-products/data-release/PI_control/ocn/index.html  |   64 TB |
+| 5       | rof  |  6    | https://ihesp.github.io/archive/products/ihesp-products/data-release/PI_control/rof/index.html  |    5 GB |
 
