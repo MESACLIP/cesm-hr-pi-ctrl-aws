@@ -24,3 +24,46 @@ Table.1: CESM-HR PI-CTRL component models (atmosphere (atm), ice, land (lnd), oc
 | 4       | ocn  | 48    | https://ihesp.github.io/archive/products/ihesp-products/data-release/PI_control/ocn/index.html  |   64 TB |
 | 5       | rof  |  6    | https://ihesp.github.io/archive/products/ihesp-products/data-release/PI_control/rof/index.html  |    5 GB |
 
+# Data Access Via AWS S3
+
+This part will be completed after gaining access to AWS and obtaining technical help from AWS. 
+
+# Tutorials
+
+This set of CESM simulations have similar data structure and output variables as that of another CESM data product in the AWS Open Data program from NCAR, Community Earth System Model v2 Large Ensemble (CESM2 LENS) (https://aws.amazon.com/marketplace/pp/prodview-xilranwbl2ep2#overview). The tools and usage examples for CESM2 LENS (https://aws.amazon.com/marketplace/pp/prodview-xilranwbl2ep2#usage) should be usable for the current CESM-HR PI-CTRL dataset too, with a few necessary changes.
+
+Once the AWS account for CESM-HR dataset has been approved and datasets are successfully transferred to AWS, it is possible to test a few Matlab based scripts using CESM-HR PI-CTRL data on the AWS and update the Tutorial related to this data product.
+
+# License
+
+This dataset is created in collaboration with NCAR and the NCAR’s “Creative Commons Attribution 4.0 International license” used for their CESM2 LENS data product on AWS (https://www.ucar.edu/terms-of-use/data) will be applicable for the CESM-HR datasets here. 
+
+# Suggested Attribution
+
+Community Earth System Model High-Resolution Pre-Industrial Control (CESM-HR) was accessed on DATE from LINK TO Registry.Opendata.AWS_link_when_it_is_availabe.
+
+# Update Frequency
+
+Rare. The CESM-HR PI-CTRL experiment is complete. Updates are expected only if any issues with the copy of the data on the AWS is reported in the future. Other experiments will be shared in the future according to the availability of resources.
+
+# Reference and Online Resources
+
+Chang et al. (2020): An Unprecedented Set of High‐Resolution Earth System Simulations for Understanding Multiscale Interactions in Climate Variability and Change. https://doi.org/10.1029/2020MS002298 
+
+Chang et al. (2023): Uncertain future of sustainable fisheries environment in eastern boundary upwelling zones under climate change. https://doi.org/10.1038/s43247-023-00681-0
+
+Eyring et al. (206): Overview of the Coupled Model Intercomparison Project Phase 6 (CMIP6) experimental design and organization. https://doi.org/10.5194/gmd‐9‐1937‐2016 
+				
+Locarnini et al. (2013). World Ocean Atlas 2013. Volume 1, Temperature, NOAA Atlas NESDIS 73 (p. 40). http://doi.org/10.7289/V55X26VD
+
+Xu et al. (2024). High-resolution modelling identifies the Bering Strait’s role in amplified Arctic warming. https://doi.org/10.1038/s41558-024-02008-z
+
+CESM Model: https://www.cesm.ucar.edu/
+
+Texas A&M Datahub Portal: https://ihesp.github.io/archive/products/ihesp-products/data-release/DataRelease_Phase2.html
+
+NetCDF Data Format: https://www.unidata.ucar.edu/software/netcdf/
+	
+MESACLIP: 	https://project.cgd.ucar.edu/projects/MESACLIP/index.html
+
+iPOGS: https://project.cgd.ucar.edu/projects/iPOGS/
